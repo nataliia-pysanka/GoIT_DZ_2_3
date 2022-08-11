@@ -5,7 +5,7 @@ services:
     container_name: assistant
     hostname: assistant
     image: assistant
-    command: "python3 app/main_menu.py"
+    command: "python3 main_menu.py"
     build:
       dockerfile: Dockerfile
       context: .
